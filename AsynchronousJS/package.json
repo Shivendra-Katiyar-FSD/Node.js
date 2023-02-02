@@ -1,0 +1,23 @@
+{
+  "name": "asynchronous-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "callback-hell": "nodemon callback-hell.js",
+    "then-catch": "nodemon then-catch.js",
+    "promises": "nodemon promises.js",
+    "async-await": "nodemon async-await.js",
+    "run-multiple-promises": "nodemon run-multiple-promises.js"
+  },
+  "author": "Shiendra Katiyar",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.6.5",
+    "superagent": "^8.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
